@@ -1,10 +1,11 @@
 import csv
 import io
 
+from openpyxl import load_workbook
 from pypdf import PdfReader
 from zipfile import ZipFile
+
 from tests.conftest import ARCHIVE_FILE_PATH
-from openpyxl import load_workbook
 
 
 def test_pdf():
